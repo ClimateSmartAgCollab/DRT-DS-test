@@ -1,2 +1,2 @@
-link,questionnaire_id,owner_id,expiry,data_label
-example.com/345983,###packageSAID_001###,83fh39fj,,"test1,nserc"
+link,questionnaire_id,license_id,owner_id,expiry,data_label
+example.com/345983,###packageSAID_001###,###licenseID###,83fh39fj,"test1,nserc"
