@@ -1,5 +1,4 @@
 link,questionnaire_id,license_id,owner_id,expiry,data_label,tags,record_label
-https://www.example.com/345983,TODO-PackageSAID,TODO-license_ID,83fh39fj,2025-06-30,nserc,"test1,anotherTag",ownersCustomLabel
 http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/24194c0f-6327-435d-9d6a-f652942dd592,TODO-PackageSAID,TODO-license_ID,71ga39pq,2025-06-30,nserc,"2024harvest, farmA",pig_data_commercial_request
 http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/a3253ea3-c620-4493-8866-49ba81a60840,TODO-PackageSAID,TODO-license_ID,71ga39pq,2025-06-30,nserc,"2025harvest, farmA",pig_data_educational_request
 http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/68cf3788-6dd0-4b98-9620-b43711db6fc0,TODO-PackageSAID,TODO-license_ID,71ga39pq,2025-06-30,nserc,"2024harvest, farmB",cow_data_commercial_request
