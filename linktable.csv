@@ -3,5 +3,8 @@ http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/24194c0f-6
 http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/a3253ea3-c620-4493-8866-49ba81a60840,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2025harvest, farmA",prototype1-25-A
 http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/68cf3788-6dd0-4b98-9620-b43711db6fc0,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2024harvest, farmB",prototype1-24-B
 http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/77170151-053b-4461-9849-e4c18968f654,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-07-30,prototype1,"2024harvest, farmB",prototype1-24-B
-http://localhost:3000/negotiation/generate/e540b3a9-b26e-435f-aff4-19bfa23a21cb,q-001-test,TODO-license_ID,92md42wd,2025-08-30,prototype1,"2023, farmA, cow",prototype1-23-A-cow
-http://localhost:3000/negotiation/generate/8ce1026c-e41c-4a03-a0a1-ede1a1630e5e,q-002-test,TODO-license_ID,92md42wd,2025-08-18,prototype1,"2023, farmB, pig",prototype1-23-B-pig
+http://localhost:3000/negotiation/generate/e540b3a9-b26e-435f-aff4-19bfa23a21cb,q-001-test,TODO-license_ID,92md42wd,2026-08-30,prototype1,"2023, farmA, cow",prototype1-23-A-cow
+http://localhost:3000/negotiation/generate/8ce1026c-e41c-4a03-a0a1-ede1a1630e5e,q-001-test,TODO-license_ID,92md42wd,2026-08-18,prototype1,"2023, farmB, pig",prototype1-23-B-pig
+http://localhost:3000/negotiation/generate/14ca6112-935e-4c9c-91ea-f6f92bfffe33,q-002-test,TODO-license_ID,92md42wd,2026-08-30,prototype2,"2023, farmA, cow",prototype2-23-A-cow
+http://localhost:3000/negotiation/generate/3ef65781-f2ed-4a4e-a7bb-d85d21e79ae4,q-002-test,TODO-license_ID,92md42wd,2026-08-18,prototype2,"2023, farmB, pig",prototype2-23-B-pig
+
