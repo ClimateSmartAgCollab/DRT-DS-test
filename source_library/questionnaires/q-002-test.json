@@ -317,7 +317,14 @@
                     },
                     {
                       "named_section": "section-4",
-                      "attribute_order": ["q11", "q12", "q13", "q14", "q15", "q16"]
+                      "attribute_order": [
+                        "q11",
+                        "q12",
+                        "q13",
+                        "q14",
+                        "q15",
+                        "q16"
+                      ]
                     }
                   ]
                 }
@@ -325,26 +332,42 @@
               "page_order": ["page-1"],
               "page_labels": {
                 "eng": {
-                  "page-1": "Page 1: Data Request Schema"
+                  "page-1": "Page 1: Prototype OCA DRT questionnaire #2",
+                  "section-1": "Section 1: Data Requestor Information",
+                  "section-2": "Section 2: Data Steward information",
+                  "section-3": "Section 3: Data Collaborators",
+                  "section-4": "Section 4: Description of your research"
                 },
                 "fra": {
-                  "page-1": "Page 1: Schéma de demande de données"
+                  "page-1": "Page 1: Schéma de demande de données",
+                  "section-1": "Section 1: Informations sur le demandeur de données",
+                  "section-2": "Section 2: Informations sur le responsable des données",
+                  "section-3": "Section 3: Collaborateurs de données",
+                  "section-4": "Section 4: Description de votre recherche"
                 }
               },
               "sidebar_label": {
                 "eng": {
-                  "page-1": "sidebar: Data Request Schema"
+                  "page-1": "first page: parent page"
                 },
                 "fra": {
-                  "page-1": "sidebar: Schéma de demande de données"
+                  "page-1": "première page : page parent"
                 }
               },
               "subheading": {
                 "eng": {
-                  "page-1": "subheading: Data Request Schema"
+                  "page-1": "welcome to the Prototype OCA DRT #2 data request schema",
+                  "section-1": "Enter information about the person who is requesting the data",
+                  "section-2": "Enter data about the data steward. This is the person who will have the legal role of signing any data sharing agreement and will take responsibility for any mismanagement of the data and breach of the data sharing agreement.",
+                  "section-3": "List all the data collaborators who will have access to the data as they will also need to be named to be included in the data sharing agreement.",
+                  "section-4": "Please provide information about what you will do with the data you have requested."
                 },
                 "fra": {
-                  "page-1": "subheading: Schéma de demande de données"
+                  "page-1": "Bienvenue dans le schéma de demande de données Prototype OCA DRT #2",
+                  "section-1": "Entrez les renseignements sur la personne qui demande les données",
+                  "section-2": "Entrez les données sur le responsable des données. C'est la personne qui aura le rôle légal de signer tout accord de partage de données et qui sera responsable de toute mauvaise gestion des données et de toute violation de l'accord de partage de données.",
+                  "section-3": "Listez tous les collaborateurs de données qui auront accès aux données, car ils devront également être nommés pour être inclus dans l'accord de partage de données.",
+                  "section-4": "Veuillez fournir des informations sur ce que vous ferez avec les données que vous avez demandées."
                 }
               },
               "interaction": [
@@ -470,8 +493,8 @@
                 }
               ],
               "title": {
-                "eng": "Data Request Schema",
-                "fra": "Schéma de demande de données"
+                "eng": "Prototype DRT #2_ test version",
+                "fra": "Prototype DRT #2_ version de test"
               }
             }
           ]
@@ -508,18 +531,18 @@
               },
               "sidebar_label": {
                 "fra": {
-                  "page-1": "sidebar: Informations sur le collaborateur"
+                  "page-1": "Informations sur le collaborateur"
                 },
                 "eng": {
-                  "page-1": "sidebar: Collaborator Information"
+                  "page-1": "Collaborator Information"
                 }
               },
               "subheading": {
                 "fra": {
-                  "page-1": "subheading: Informations sur le collaborateur"
+                  "page-1": "Informations sur le collaborateur"
                 },
                 "eng": {
-                  "page-1": "subheading: Collaborator Information"
+                  "page-1": "Collaborator Information"
                 }
               },
               "interaction": [
