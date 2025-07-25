@@ -305,25 +305,19 @@
                   "attribute_order": [
                     {
                       "named_section": "section-1",
-                      "attribute_order": [
-                        "q1",
-                        "q2",
-                        "q3",
-                        "q4",
-                        "q5",
-                        "q6",
-                        "q7",
-                        "q8",
-                        "q9",
-                        "q10",
-                        "q10.5",
-                        "q11",
-                        "q12",
-                        "q13",
-                        "q14",
-                        "q15",
-                        "q16"
-                      ]
+                      "attribute_order": ["q1", "q2", "q3", "q4", "q5"]
+                    },
+                    {
+                      "named_section": "section-2",
+                      "attribute_order": ["q6", "q7", "q8", "q9", "q10"]
+                    },
+                    {
+                      "named_section": "section-3",
+                      "attribute_order": ["q10.5"]
+                    },
+                    {
+                      "named_section": "section-4",
+                      "attribute_order": ["q11", "q12", "q13", "q14", "q15", "q16"]
                     }
                   ]
                 }
