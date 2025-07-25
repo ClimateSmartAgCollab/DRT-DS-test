@@ -354,22 +354,22 @@
                   "page-1": "première page : page parent"
                 }
               },
-              "subheading": {
-                "eng": {
-                  "page-1": "welcome to the Prototype OCA DRT #2 data request schema",
-                  "section-1": "Enter information about the person who is requesting the data",
-                  "section-2": "Enter data about the data steward. This is the person who will have the legal role of signing any data sharing agreement and will take responsibility for any mismanagement of the data and breach of the data sharing agreement.",
-                  "section-3": "List all the data collaborators who will have access to the data as they will also need to be named to be included in the data sharing agreement.",
-                  "section-4": "Please provide information about what you will do with the data you have requested."
+                              "subheading": {
+                  "eng": {
+                    "page-1": "welcome to the Prototype OCA DRT #2 data request schema",
+                    "section-1": "Enter information about the person who is requesting the data",
+                    "section-2": "Enter data about the data steward. This is the person who will have the legal role of signing any data sharing agreement and will take responsibility for any mismanagement of the data and breach of the data sharing agreement.\n\nNamed Accountability and Responsible Data Stewardship (i.e., supervisor)\nWho is the Data Steward who would be held legally or institutionally accountable for data misuse? Typically, this would be the leader of the project (e.g., Supervising PI).\n\nRole:\n• Oversees how the data is used, stored, and shared.\n• Ensures compliance with the data sharing agreement and institutional policies.\n• Acts as the point of contact for any issues or breaches.\n\nResponsibilities:\n• Maintains data integrity and confidentiality.\n• Ensures that any downstream users also comply with the agreement.\n• Can be held legally or institutionally accountable for misuse.",
+                    "section-3": "List all the data collaborators who will have access to the data as they will also need to be named to be included in the data sharing agreement.",
+                    "section-4": "Please provide information about what you will do with the data you have requested."
+                  },
+                  "fra": {
+                    "page-1": "Bienvenue dans le schéma de demande de données Prototype OCA DRT #2",
+                    "section-1": "Entrez les renseignements sur la personne qui demande les données",
+                    "section-2": "Entrez les données sur le responsable des données. C'est la personne qui aura le rôle légal de signer tout accord de partage de données et qui sera responsable de toute mauvaise gestion des données et de toute violation de l'accord de partage de données.\n\nResponsabilité Nommée et Gouvernance Responsable des Données (c'est-à-dire, superviseur)\nQui est le Responsable des Données qui serait tenu légalement ou institutionnellement responsable de l'utilisation abusive des données ? Typiquement, ce serait le chef du projet (par exemple, PI Superviseur).\n\nRôle :\n• Supervise comment les données sont utilisées, stockées et partagées.\n• Assure la conformité avec l'accord de partage de données et les politiques institutionnelles.\n• Agit comme point de contact pour tout problème ou violation.\n\nResponsabilités :\n• Maintient l'intégrité et la confidentialité des données.\n• S'assure que tous les utilisateurs en aval respectent également l'accord.\n• Peut être tenu légalement ou institutionnellement responsable de l'utilisation abusive.",
+                    "section-3": "Listez tous les collaborateurs de données qui auront accès aux données, car ils devront également être nommés pour être inclus dans l'accord de partage de données.",
+                    "section-4": "Veuillez fournir des informations sur ce que vous ferez avec les données que vous avez demandées."
+                  }
                 },
-                "fra": {
-                  "page-1": "Bienvenue dans le schéma de demande de données Prototype OCA DRT #2",
-                  "section-1": "Entrez les renseignements sur la personne qui demande les données",
-                  "section-2": "Entrez les données sur le responsable des données. C'est la personne qui aura le rôle légal de signer tout accord de partage de données et qui sera responsable de toute mauvaise gestion des données et de toute violation de l'accord de partage de données.",
-                  "section-3": "Listez tous les collaborateurs de données qui auront accès aux données, car ils devront également être nommés pour être inclus dans l'accord de partage de données.",
-                  "section-4": "Veuillez fournir des informations sur ce que vous ferez avec les données que vous avez demandées."
-                }
-              },
               "interaction": [
                 {
                   "arguments": {
@@ -523,10 +523,12 @@
               "page_order": ["page-1"],
               "page_labels": {
                 "fra": {
-                  "page-1": "Page 1: Informations sur le collaborateur"
+                  "page-1": "Page 1: Informations sur le collaborateur",
+                  "section-1": "Section 1: Informations sur le collaborateur"
                 },
                 "eng": {
-                  "page-1": "Page 1: Collaborator Information"
+                  "page-1": "Page 1: Collaborator Information",
+                  "section-1": "Section 1: Collaborator Information"
                 }
               },
               "sidebar_label": {
@@ -539,10 +541,12 @@
               },
               "subheading": {
                 "fra": {
-                  "page-1": "Informations sur le collaborateur"
+                  "page-1": "Informations sur le collaborateur",
+                  "section-1": "Informations sur le collaborateur"
                 },
                 "eng": {
-                  "page-1": "Collaborator Information"
+                  "page-1": "Collaborator Information",
+                  "section-1": "Collaborator Information"
                 }
               },
               "interaction": [
