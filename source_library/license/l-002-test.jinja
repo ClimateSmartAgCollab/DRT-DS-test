@@ -126,6 +126,11 @@ Any disputes arising from this agreement shall first be attempted to be resolved
 
 If unresolved, disputes will be handled through {{ submission.arbitration_mediation if 'arbitration_mediation' in submission else "mediation" }} governed under the laws of {{ submission.governing_jurisdiction if 'governing_jurisdiction' in submission else "the jurisdiction of the Data Owner's institution" }}.
 
+Attribution Requirement
+The Data Requestor agrees to acknowledge the source of the Data in any publications, presentations, or derivative works that utilize the Data. Specifically, the Data Requestor must include the following citation in all such works:
+“This work utilized data provided under license from [Data Provider Name]. Use of this data was supported by [Granting Agency Name], Grant Number [Grant Number], and is described in [Full Citation of the Publication, including authors, title, journal, volume, pages, and year].”
+
+
 Section 13: Signatures
 
 By signing this agreement, all parties confirm they understand and agree to the terms set forth above.
@@ -153,3 +158,7 @@ Signature: __________________________
 Date: {{ submission.collaborator_signature_date if 'collaborator_signature_date' in submission else "Date to be filled" }}
 {% endfor %}
 {% endif %} 
+
+
+
+
