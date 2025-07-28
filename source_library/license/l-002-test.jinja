@@ -4,15 +4,18 @@ Definitions
 
 The Data Provider ("Data Owner"): {{ owner_table[submission.owner_id].username if submission.owner_id and owner_table and submission.owner_id in owner_table else "Data Owner" }}, affiliated with {{ owner_table[submission.owner_id].institution if submission.owner_id and owner_table and submission.owner_id in owner_table and 'institution' in owner_table[submission.owner_id] else "Data Owner Institution" }}, located in {{ owner_table[submission.owner_id].city if submission.owner_id and owner_table and submission.owner_id in owner_table and 'city' in owner_table[submission.owner_id] else "Data Owner City" }}, {{ owner_table[submission.owner_id].country if submission.owner_id and owner_table and submission.owner_id in owner_table and 'country' in owner_table[submission.owner_id] else "Data Owner Country" }}. 
 
-The Requestor: {{ submission.q1 }}, affiliated with {{ submission.q3 }}, located in {{ submission.q5 }}, {{ submission.q4 }}. 
+{% set mainKey = submission.keys() | select("ne", "save") | select("ne", "submit") | first %}
+{% set details = submission[mainKey] if mainKey else submission %}
 
-The Data Steward: {{ submission.q6 }}, affiliated with {{ submission.q8 }}, located in {{ submission.q10 }}, {{ submission.q9 }}. 
+The Requestor: {{ details.q1 }}, affiliated with {{ details.q3 }}, located in {{ details.q5 }}, {{ details.q4 }}. 
+
+The Data Steward: {{ details.q6 }}, affiliated with {{ details.q8 }}, located in {{ details.q10 }}, {{ details.q9 }}. 
 
 Section 1 – Purpose and Scope of Agreement 
 
-This agreement governs the transfer and use of the dataset described as {{ submission.dataset_description if 'dataset_description' in submission else "the requested dataset" }}, originally created, collected, or curated by {{ owner_table[submission.owner_id].username if submission.owner_id and owner_table and submission.owner_id in owner_table else "the Data Owner" }}. The purpose of this agreement is to enable the responsible and secure use of the data by {{ submission.q1 }} in the context of the research project titled "{{ submission.q11 }}" and to ensure compliance with applicable laws, ethical standards, and institutional policies. 
+This agreement governs the transfer and use of the dataset described as {{ details.dataset_description if 'dataset_description' in details else "the requested dataset" }}, originally created, collected, or curated by {{ owner_table[submission.owner_id].username if submission.owner_id and owner_table and submission.owner_id in owner_table else "the Data Owner" }}. The purpose of this agreement is to enable the responsible and secure use of the data by {{ details.q1 }} in the context of the research project titled "{{ details.q11 }}" and to ensure compliance with applicable laws, ethical standards, and institutional policies. 
 
-The data shall be used solely for the purpose of {{ submission.q11 }} and under the supervision of {{ submission.q6 }}. All use must align with the terms defined in this agreement and any applicable ethical review or institutional approval. 
+The data shall be used solely for the purpose of {{ details.q11 }} and under the supervision of {{ details.q6 }}. All use must align with the terms defined in this agreement and any applicable ethical review or institutional approval. 
 
 Section 2 – Ownership and Intellectual Property 
 
@@ -25,16 +28,16 @@ The Requestor agrees to the following constraints:
 
 Section 3 – Requestor Responsibilities 
 
-The Requestor ({{ submission.q1 }}) will: 
+The Requestor ({{ details.q1 }}) will: 
 - Use the data only for the purpose stated in this agreement. 
 - Ensure the data is stored in secure, access-controlled environments. 
-- Abide by all institutional data protection policies and applicable data protection laws such as {{ submission.applicable_regulations if 'applicable_regulations' in submission else "PIPEDA" }}. 
-- Acknowledge the Data Owner in all resulting outputs using the following citation: {{ submission.citation_format if 'citation_format' in submission else "Standard academic citation format" }}. 
-- Notify the Data Owner within {{ submission.breach_notification_period if 'breach_notification_period' in submission else "30" }} days of any unauthorized access, breach, or misuse. 
+- Abide by all institutional data protection policies and applicable data protection laws such as {{ details.applicable_regulations if 'applicable_regulations' in details else "PIPEDA" }}. 
+- Acknowledge the Data Owner in all resulting outputs using the following citation: {{ details.citation_format if 'citation_format' in details else "Standard academic citation format" }}. 
+- Notify the Data Owner within {{ details.breach_notification_period if 'breach_notification_period' in details else "30" }} days of any unauthorized access, breach, or misuse. 
 
 Section 4 – Data Steward Responsibilities 
 
-The designated Data Steward ({{ submission.q6 }}) shall: 
+The designated Data Steward ({{ details.q6 }}) shall: 
 - Oversee the use and management of the data within the project. 
 - Ensure that all team members and collaborators comply with this agreement. 
 - Act as the point of contact in case of a data breach, legal query, or audit. 
@@ -44,8 +47,8 @@ The designated Data Steward ({{ submission.q6 }}) shall:
 Section 5 – Collaborators and Access 
 
 The following individuals are authorized to access the data: 
-{% if submission.q10_5 and submission.q10_5 is iterable %}
-{% for collaborator in submission.q10_5 %}
+{% if details.q10_5 and details.q10_5 is iterable %}
+{% for collaborator in details.q10_5 %}
 Collaborator {{ loop.index }} Name: {{ collaborator.q1 }} 
 Affiliation: {{ collaborator.q2 }} 
 Access Level: {{ collaborator.q3 }} (e.g., full dataset, anonymized subset) 
@@ -60,43 +63,43 @@ No other individuals may access the data without written approval from the Data 
 
 Section 6 – Description of the Data 
 
-Dataset Title: {{ submission.dataset_title if 'dataset_title' in submission else "Requested Dataset" }} 
-Data Types Included: {{ submission.data_types if 'data_types' in submission else "As specified in the data request" }} (e.g., survey results, genomic sequences) 
-Format: {{ submission.data_format if 'data_format' in submission else "As provided by Data Owner" }} (e.g., CSV, JSON, TIFF) 
-Size: {{ submission.dataset_size if 'dataset_size' in submission else "As specified by Data Owner" }} 
-Sensitivity Classification: {{ submission.sensitivity_level if 'sensitivity_level' in submission else "As determined by Data Owner" }} (e.g. anonymized/de-identified) 
-Data Collection Period: {{ submission.collection_start_date if 'collection_start_date' in submission else "As specified by Data Owner" }} to {{ submission.collection_end_date if 'collection_end_date' in submission else "As specified by Data Owner" }} 
-Ethics Approval Reference: {{ submission.irb_number if 'irb_number' in submission else "As applicable" }} 
+Dataset Title: {{ details.dataset_title if 'dataset_title' in details else "Requested Dataset" }} 
+Data Types Included: {{ details.data_types if 'data_types' in details else "As specified in the data request" }} (e.g., survey results, genomic sequences) 
+Format: {{ details.data_format if 'data_format' in details else "As provided by Data Owner" }} (e.g., CSV, JSON, TIFF) 
+Size: {{ details.dataset_size if 'dataset_size' in details else "As specified by Data Owner" }} 
+Sensitivity Classification: {{ details.sensitivity_level if 'sensitivity_level' in details else "As determined by Data Owner" }} (e.g. anonymized/de-identified) 
+Data Collection Period: {{ details.collection_start_date if 'collection_start_date' in details else "As specified by Data Owner" }} to {{ details.collection_end_date if 'collection_end_date' in details else "As specified by Data Owner" }} 
+Ethics Approval Reference: {{ details.irb_number if 'irb_number' in details else "As applicable" }} 
 
 Section 7 – Intended Use and Outputs 
 
-Research Question: {{ submission.q11 }} 
+Research Question: {{ details.q11 }} 
 
 Use Type: 
-Academic: [{{ "Yes" if "academic" in submission.q12 else "No" }}] 
-Commercial: [{{ "Yes" if "commercial" in submission.q12 else "No" }}] 
-Educational: [{{ "Yes" if "educational" in submission.q12 else "No" }}] 
+Academic: [{{ "Yes" if "academic" in details.q12 else "No" }}] 
+Commercial: [{{ "Yes" if "commercial" in details.q12 else "No" }}] 
+Educational: [{{ "Yes" if "educational" in details.q12 else "No" }}] 
 
-Expected Outputs: {{ submission.q13 }} (e.g., dissertation, publication, etc) 
+Expected Outputs: {{ details.q13 }} (e.g., dissertation, publication, etc) 
 
-Earliest Publication Date: {{ submission.q15 }} 
+Earliest Publication Date: {{ details.q15 }} 
 
-Project Duration: {{ submission.q16 }} 
+Project Duration: {{ details.q16 }} 
 
 Section 8 – Data Security and Storage 
 
 The Requestor agrees to store the data securely using the following measures: 
-{{ submission.q14 }} 
+{{ details.q14 }} 
 
 Section 9 – Privacy and Compliance 
 
-The data has been shared in accordance with the participant consent forms, and no personally identifiable information (PII) is included unless explicitly stated. The Requestor confirms that all institutional and legal approvals for using this data are in place. If applicable, the Requestor shall provide the Data Owner with a copy of the ethics approval letter for this project: {{ submission.ethics_approval_upload if 'ethics_approval_upload' in submission else "As required by institutional policies" }} 
+The data has been shared in accordance with the participant consent forms, and no personally identifiable information (PII) is included unless explicitly stated. The Requestor confirms that all institutional and legal approvals for using this data are in place. If applicable, the Requestor shall provide the Data Owner with a copy of the ethics approval letter for this project: {{ details.ethics_approval_upload if 'ethics_approval_upload' in details else "As required by institutional policies" }} 
 
 Section 10 – Termination and Data Destruction 
 
 At the conclusion of the project or upon termination of this agreement: 
 - All copies of the data must be securely destroyed using industry-standard data wiping methods. 
-- Confirmation of destruction must be sent to the Data Owner within {{ submission.destruction_confirmation_period if 'destruction_confirmation_period' in submission else "30" }} days of project end. 
+- Confirmation of destruction must be sent to the Data Owner within {{ details.destruction_confirmation_period if 'destruction_confirmation_period' in details else "30" }} days of project end. 
 - Alternatively, if requested, the data must be returned via secure transfer. 
 - The Data Owner reserves the right to terminate this agreement at any time for misuse or breach of terms. 
 
@@ -104,23 +107,23 @@ Section 11 – Dispute Resolution and Governing Law
 
 Any disputes arising from this agreement shall first be attempted to be resolved through good-faith negotiations between the parties. 
 
-If unresolved, disputes will be handled through {{ submission.arbitration_mediation if 'arbitration_mediation' in submission else "mediation" }} governed under the laws of {{ submission.governing_jurisdiction if 'governing_jurisdiction' in submission else "the jurisdiction of the Data Owner's institution" }}. 
+If unresolved, disputes will be handled through {{ details.arbitration_mediation if 'arbitration_mediation' in details else "mediation" }} governed under the laws of {{ details.governing_jurisdiction if 'governing_jurisdiction' in details else "the jurisdiction of the Data Owner's institution" }}. 
 
 Section 12 – Signatures 
 
 By signing this agreement, all parties confirm they understand and agree to the terms set forth above. 
 
 Requestor 
-Name: {{ submission.q1 }} 
+Name: {{ details.q1 }} 
 Signature: __________________________ 
-Date: {{ submission.requestor_signature_date if 'requestor_signature_date' in submission else "Date to be filled" }} 
+Date: {{ details.requestor_signature_date if 'requestor_signature_date' in details else "Date to be filled" }} 
 
 Data Steward 
-Name: {{ submission.q6 }} 
+Name: {{ details.q6 }} 
 Signature: __________________________ 
-Date: {{ submission.steward_signature_date if 'steward_signature_date' in submission else "Date to be filled" }} 
+Date: {{ details.steward_signature_date if 'steward_signature_date' in details else "Date to be filled" }} 
 
 Data Owner / Provider 
 Name: {{ owner_table[submission.owner_id].username if submission.owner_id and owner_table and submission.owner_id in owner_table else "Data Owner" }} 
 Signature: __________________________ 
-Date: {{ submission.owner_signature_date if 'owner_signature_date' in submission else "Date to be filled" }} 
+Date: {{ details.owner_signature_date if 'owner_signature_date' in details else "Date to be filled" }} 
