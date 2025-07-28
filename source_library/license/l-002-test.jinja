@@ -150,6 +150,6 @@ Date: {{ submission.owner_signature_date if 'owner_signature_date' in submission
 Collaborator {{ loop.index }}
 Name: {{ collaborator.q1 }}
 Signature: __________________________
-
+Date: {{ submission.collaborator_signature_date if 'collaborator_signature_date' in submission else "Date to be filled" }}
 {% endfor %}
 {% endif %} 
