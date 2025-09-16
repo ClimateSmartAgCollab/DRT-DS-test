@@ -393,7 +393,7 @@
                         "eng": "Add Collaborator",
                         "fra": "Ajouter un Collaborateur"
                       },
-                      "showing_attribute": ["q1", "q2"]
+                      "showing_attribute": ["q1", "q2", "q3", "q4"]
                     },
                     "q11": {
                       "type": "textarea",
