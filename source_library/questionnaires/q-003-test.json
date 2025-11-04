@@ -1,0 +1,492 @@
+{
+    "d": "EEvoW5wZMFLWJNB1Qu_0tosBmFAQleoWF-VTFiJnnSuz",
+    "type": "oca_package/1.0",
+    "oca_bundle": {
+        "v": "OCAA11JSON000d1d_",
+        "bundle": {
+            "v": "OCAS11JSON000d00_",
+            "d": "EBBRJmHtguVYtxXVzIBCXTF2BYWHlG5IYT1ktbZP8bOB",
+            "capture_base": {
+                "d": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                "type": "spec/capture_base/1.1",
+                "attributes": {
+                    "q1": "Text",
+                    "q10": "Boolean",
+                    "q11": [
+                        "Boolean"
+                    ],
+                    "q12": [
+                        "Boolean"
+                    ],
+                    "q2": "Text",
+                    "q3": [
+                        "Text"
+                    ],
+                    "q4": "DateTime",
+                    "q5": [
+                        "DateTime"
+                    ],
+                    "q6": "Numeric",
+                    "q7": [
+                        "Numeric"
+                    ],
+                    "q8": "Binary",
+                    "q9": [
+                        "Binary"
+                    ]
+                },
+                "classification": "",
+                "flagged_attributes": []
+            },
+            "overlays": {
+                "entry": [
+                    {
+                        "d": "ECX1CgownXdPpFZLZavZq5u_o7gfTq1kiYPRhtgw__tv",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "spec/overlays/entry/1.1",
+                        "language": "eng",
+                        "attribute_entries": {
+                            "q12": {
+                                "a": "a",
+                                "b": "b",
+                                "c": "c",
+                                "d": "d",
+                                "e": "e"
+                            },
+                            "q2": {
+                                "1": "1",
+                                "2": "2",
+                                "3": "3",
+                                "4": "4",
+                                "5": "5",
+                                "6": "6",
+                                "7": "7"
+                            }
+                        }
+                    },
+                    {
+                        "d": "ELP0poAwgb0jz4cSelUs314x92kzpD4Ne9YSwpouXXWp",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "spec/overlays/entry/1.1",
+                        "language": "fra",
+                        "attribute_entries": {
+                            "q12": {
+                                "a": "a",
+                                "b": "b",
+                                "c": "c",
+                                "d": "d",
+                                "e": "e"
+                            },
+                            "q2": {
+                                "1": "1",
+                                "2": "2",
+                                "3": "3",
+                                "4": "4",
+                                "5": "5",
+                                "6": "6",
+                                "7": "7"
+                            }
+                        }
+                    }
+                ],
+                "entry_code": {
+                    "d": "EKJRlEtgVF2bOFpHKo0GyqTfqj6GJfmBya8W_v37dym-",
+                    "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                    "type": "spec/overlays/entry_code/1.1",
+                    "attribute_entry_codes": {
+                        "q12": [
+                            "a",
+                            "b",
+                            "c",
+                            "d",
+                            "e"
+                        ],
+                        "q2": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7"
+                        ]
+                    }
+                },
+                "format": {
+                    "d": "EB4QHAylDYm_0c1drMqCRYcAmC7Kci-gbE9xPUY_Ut0-",
+                    "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                    "type": "spec/overlays/format/1.1",
+                    "attribute_formats": {
+                        "q1": "^.{0,50}$",
+                        "q2": "^.{0,250}$",
+                        "q3": "[a-zA-Z0-9_\\.\\+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-\\.]+",
+                        "q4": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+                        "q5": "^(\\d{4})$",
+                        "q6": "^[-+]?\\d*\\.?\\d+$",
+                        "q7": "^-?[0-9]+$",
+                        "q8": "application/json",
+                        "q9": "application/pdf"
+                    }
+                },
+                "label": [
+                    {
+                        "d": "EK-6utZ5heJ3HnysH6ogQuvxkB7XP3GtuWpgBWGXWQ67",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "spec/overlays/label/1.1",
+                        "language": "eng",
+                        "attribute_categories": [],
+                        "attribute_labels": {
+                            "q1": "what is your name?",
+                            "q10": "are you a robot?",
+                            "q11": "are you a human?",
+                            "q12": "select true value.",
+                            "q2": "Enter a random sentence.",
+                            "q3": "please enter your email adress.",
+                            "q4": "What is your birth date?",
+                            "q5": "when will you submit your paper?",
+                            "q6": "How satidfied you are?",
+                            "q7": "How old are you?",
+                            "q8": "upload a json file.",
+                            "q9": "upload a PDF."
+                        },
+                        "category_labels": {}
+                    },
+                    {
+                        "d": "ENXEZP_6iIsIFehuMQapk2DZb1XSPKnHOkJQocuf1nAe",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "spec/overlays/label/1.1",
+                        "language": "fra",
+                        "attribute_categories": [],
+                        "attribute_labels": {
+                            "q1": "q1",
+                            "q10": "q10",
+                            "q11": "q11",
+                            "q12": "q12",
+                            "q2": "q2",
+                            "q3": "q3",
+                            "q4": "q4",
+                            "q5": "q5",
+                            "q6": "q6",
+                            "q7": "q7",
+                            "q8": "q8",
+                            "q9": "q9"
+                        },
+                        "category_labels": {}
+                    }
+                ],
+                "meta": [
+                    {
+                        "d": "EDDWfYTUVf7Ghs-4AbuZse58WcNww1yOEikvvuW7bfo-",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "spec/overlays/meta/1.1",
+                        "language": "eng",
+                        "description": "This is a sample of the questionnaire for DRT to test the new features support.",
+                        "name": "sample of the questionnaire"
+                    },
+                    {
+                        "d": "ENkVzrGuxu5PE5dgtqKOBYv-_0smQWcAXxK1_z7OkVMD",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "spec/overlays/meta/1.1",
+                        "language": "fra",
+                        "description": "Ceci est un exemple du questionnaire destiné à DRT pour tester la prise en charge des nouvelles fonctionnalités.",
+                        "name": "échantillon du questionnaire"
+                    }
+                ]
+            }
+        },
+        "dependencies": []
+    },
+    "extensions": {
+        "adc": {
+            "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr": {
+                "d": "EJMoIobdoFuQX9JvmrdpHG3-8kpP5P1Q83qBLJBVaTS1",
+                "type": "community/adc/extension/1.0",
+                "overlays": {
+                    "form": [
+                        {
+                            "d": "EKhAZ6zTtlLpwcxNgSoTdgX2v1f6DZE0UVkpWIjCKIo_",
+                            "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                            "type": "community/overlays/adc/form/1.1",
+                            "language": "eng",
+                            "pages": [
+                                {
+                                    "attribute_order": [
+                                        {
+                                            "attribute_order": [
+                                                "q1",
+                                                "q2",
+                                                "q3"
+                                            ],
+                                            "named_section": "af89a4cc-3042-40e6-8399-471638344a93"
+                                        },
+                                        {
+                                            "attribute_order": [
+                                                "q4",
+                                                "q5",
+                                                "q6",
+                                                "q7",
+                                                "q10",
+                                                "q11",
+                                                "q12"
+                                            ],
+                                            "named_section": "8450bcc8-791e-4c9b-bc17-ae3c9972b848"
+                                        }
+                                    ],
+                                    "named_section": "69287c51-72c3-4a44-aede-2a0d678ab7b1"
+                                },
+                                {
+                                    "attribute_order": [
+                                        "q8",
+                                        "q9"
+                                    ],
+                                    "named_section": "3769552d-6811-44e2-9bac-073b5a6a2fd5"
+                                }
+                            ],
+                            "page_order": [
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5"
+                            ],
+                            "page_labels": {
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1": "Intoduction",
+                                "af89a4cc-3042-40e6-8399-471638344a93": "Text area information",
+                                "8450bcc8-791e-4c9b-bc17-ae3c9972b848": "Dates and boolean information ",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5": "upload your files"
+                            },
+                            "sidebar_label": {
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1": "Intoduction",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5": "Page 2"
+                            },
+                            "description": {
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1": "Page 1_Intoduction:\nThis is a page where you will be required to enter information about yourself. This will help us know you better and then use the information later for your own benefit. Please don't enter private information that you don't want..",
+                                "af89a4cc-3042-40e6-8399-471638344a93": "This is where all answering areas, are text areas and you are required to type something to answer the question.",
+                                "q2": "This question asks you to **write any random sentence**—it doesn’t need to be meaningful or related to the topic. The purpose is usually to test how text appears, verify data entry, or check how the system handles written input.\n\nIf you’re unsure what to write, you can use AI tools like **ChatGPT** or **Copilot** to quickly generate a random sentence. For example, you can type a prompt such as *“Write a random sentence”* or *“Give me a short, funny sentence”*. The AI might respond with something like *“The purple elephant danced under the moonlight.”*\n\nOnce you get a sentence, simply copy and paste it into the questionnaire. There’s no right or wrong answer—just make sure it’s a complete sentence written in proper English.\n",
+                                "8450bcc8-791e-4c9b-bc17-ae3c9972b848": "Section 2 is asking you enter some dates or dateties and select of the boolean options!",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5": "Page 2"
+                            },
+                            "title": "sample of the questionnaire",
+                            "interaction": [
+                                {
+                                    "arguments": {
+                                        "q1": {
+                                            "placeholder": "please enter a max of 50 chars",
+                                            "type": "Text"
+                                        },
+                                        "q10": {
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Boolean"
+                                        },
+                                        "q11": {
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Array[Boolean]"
+                                        },
+                                        "q12": {
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Array[Boolean]"
+                                        },
+                                        "q2": {
+                                            "input_type": "datalist-multi",
+                                            "placeholder": "Max chars 250",
+                                            "type": "Text"
+                                        },
+                                        "q3": {
+                                            "placeholder": "exampl3@drt.ca",
+                                            "type": "Array[Text]"
+                                        },
+                                        "q4": {
+                                            "placeholder": "YYYY-MM-DD",
+                                            "type": "DateTime"
+                                        },
+                                        "q5": {
+                                            "placeholder": "YYYY",
+                                            "type": "Array[DateTime]"
+                                        },
+                                        "q6": {
+                                            "placeholder": "Enter any integer or decimal number",
+                                            "type": "Numeric"
+                                        },
+                                        "q7": {
+                                            "placeholder": "Enter any integer",
+                                            "type": "Array[Numeric]"
+                                        },
+                                        "q8": {
+                                            "type": "Binary"
+                                        },
+                                        "q9": {
+                                            "type": "Array[Binary]"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "d": "ECosCDbvZeLSFUMzeID7W-do5WhkE2Vb-HDWaiXn7omG",
+                            "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                            "type": "community/overlays/adc/form/1.1",
+                            "language": "fra",
+                            "pages": [
+                                {
+                                    "attribute_order": [
+                                        {
+                                            "attribute_order": [
+                                                "q1",
+                                                "q2",
+                                                "q3"
+                                            ],
+                                            "named_section": "af89a4cc-3042-40e6-8399-471638344a93"
+                                        },
+                                        {
+                                            "attribute_order": [
+                                                "q4",
+                                                "q5",
+                                                "q6",
+                                                "q7",
+                                                "q10",
+                                                "q11",
+                                                "q12"
+                                            ],
+                                            "named_section": "8450bcc8-791e-4c9b-bc17-ae3c9972b848"
+                                        }
+                                    ],
+                                    "named_section": "69287c51-72c3-4a44-aede-2a0d678ab7b1"
+                                },
+                                {
+                                    "attribute_order": [
+                                        "q8",
+                                        "q9"
+                                    ],
+                                    "named_section": "3769552d-6811-44e2-9bac-073b5a6a2fd5"
+                                }
+                            ],
+                            "page_order": [
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5"
+                            ],
+                            "page_labels": {
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1": "Page 1",
+                                "af89a4cc-3042-40e6-8399-471638344a93": "Section 1",
+                                "8450bcc8-791e-4c9b-bc17-ae3c9972b848": "Section 2",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5": "Page 2"
+                            },
+                            "sidebar_label": {
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1": "Page 1",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5": "Page 2"
+                            },
+                            "description": {
+                                "69287c51-72c3-4a44-aede-2a0d678ab7b1": "Page 1",
+                                "af89a4cc-3042-40e6-8399-471638344a93": "Section 1",
+                                "8450bcc8-791e-4c9b-bc17-ae3c9972b848": "Section 2",
+                                "3769552d-6811-44e2-9bac-073b5a6a2fd5": "Page 2"
+                            },
+                            "title": "échantillon du questionnaire",
+                            "interaction": [
+                                {
+                                    "arguments": {
+                                        "q1": {
+                                            "type": "Text"
+                                        },
+                                        "q10": {
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Boolean"
+                                        },
+                                        "q11": {
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Array[Boolean]"
+                                        },
+                                        "q12": {
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Array[Boolean]"
+                                        },
+                                        "q2": {
+                                            "input_type": "datalist-multi",
+                                            "type": "Text"
+                                        },
+                                        "q3": {
+                                            "type": "Array[Text]"
+                                        },
+                                        "q4": {
+                                            "placeholder": "YYYY-MM-DD",
+                                            "type": "DateTime"
+                                        },
+                                        "q5": {
+                                            "placeholder": "YYYY",
+                                            "type": "Array[DateTime]"
+                                        },
+                                        "q6": {
+                                            "placeholder": "Enter any integer or decimal number",
+                                            "type": "Numeric"
+                                        },
+                                        "q7": {
+                                            "placeholder": "Enter any integer",
+                                            "type": "Array[Numeric]"
+                                        },
+                                        "q8": {
+                                            "type": "Binary"
+                                        },
+                                        "q9": {
+                                            "type": "Array[Binary]"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "ordering": {
+                        "d": "ELIGBMQWWyvjZaDWyqjlpMuHqAN6NjnShEe6E_dUho5t",
+                        "capture_base": "EM45uTlhsNhxSDK4vXOFyMP44TuxLATF7nmwyTi0Zctr",
+                        "type": "community/overlays/adc/ordering/1.1",
+                        "attribute_ordering": [
+                            "q1",
+                            "q2",
+                            "q3",
+                            "q4",
+                            "q5",
+                            "q6",
+                            "q7",
+                            "q8",
+                            "q9",
+                            "q10",
+                            "q11",
+                            "q12"
+                        ],
+                        "entry_code_ordering": {
+                            "q2": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7"
+                            ],
+                            "q12": [
+                                "a",
+                                "b",
+                                "c",
+                                "d",
+                                "e"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
