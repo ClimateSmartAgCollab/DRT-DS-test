@@ -1,0 +1,619 @@
+{
+    "d": "EHJP4eQfaqKVt7RnKnZjWORGd6XVdFfM6Fjx18--a1Lx",
+    "type": "oca_package/1.0",
+    "oca_bundle": {
+        "v": "OCAA11JSON000e00_",
+        "bundle": {
+            "v": "OCAS11JSON000de3_",
+            "d": "EIJ3TTa1EZBd_LbCB_JXJQCkH2S0-Rg-NP2jO1Nvo9F7",
+            "capture_base": {
+                "d": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                "type": "spec/capture_base/1.1",
+                "attributes": {
+                    "q1": "Binary",
+                    "q10": "DateTime",
+                    "q2": "Boolean",
+                    "q3": "DateTime",
+                    "q4": "Numeric",
+                    "q5": "Text",
+                    "q6": "Numeric",
+                    "q7": "Numeric",
+                    "q8": "Text",
+                    "q9": "Text"
+                },
+                "classification": "",
+                "flagged_attributes": []
+            },
+            "overlays": {
+                "entry": [
+                    {
+                        "d": "EMxbrxjSXxCYJU80mEmlk_jny14cTeeq8Df8clxlGJdD",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "spec/overlays/entry/1.1",
+                        "language": "eng",
+                        "attribute_entries": {
+                            "q1": {
+                                "1": "1",
+                                "2": "2",
+                                "3": "3",
+                                "4": "4"
+                            },
+                            "q10": {
+                                "&": "&",
+                                "&&": "&&",
+                                "|": "|",
+                                "||": "||"
+                            },
+                            "q2": {
+                                "7": "7",
+                                "8": "8",
+                                "9": "9"
+                            },
+                            "q3": {
+                                "0": "0",
+                                "3": "3",
+                                "4": "4",
+                                "5": "5",
+                                "8": "8"
+                            },
+                            "q4": {
+                                "e": "e",
+                                "q": "q",
+                                "w": "w"
+                            },
+                            "q5": {
+                                "a": "a",
+                                "d": "d",
+                                "f": "f",
+                                "s": "s"
+                            },
+                            "q6": {
+                                "b": "b",
+                                "l": "l",
+                                "m": "m",
+                                "n": "n"
+                            },
+                            "q7": {
+                                "i": "i",
+                                "o": "o",
+                                "p": "p",
+                                "u": "u"
+                            },
+                            "q8": {
+                                "*": "*",
+                                "+": "+",
+                                "-": "-",
+                                "=": "="
+                            },
+                            "q9": {
+                                ",": ",",
+                                "-": "-",
+                                ".": ".",
+                                ";": ";"
+                            }
+                        }
+                    },
+                    {
+                        "d": "ENgF6FMGCeLvGHglHFan_1D5W3DI3sUaVG_rWHUHitKD",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "spec/overlays/entry/1.1",
+                        "language": "fra",
+                        "attribute_entries": {
+                            "q1": {
+                                "1": "1",
+                                "2": "2",
+                                "3": "3",
+                                "4": "4"
+                            },
+                            "q10": {
+                                "&": "&",
+                                "&&": "&&",
+                                "|": "|",
+                                "||": "||"
+                            },
+                            "q2": {
+                                "7": "7",
+                                "8": "8",
+                                "9": "9"
+                            },
+                            "q3": {
+                                "0": "0",
+                                "3": "3",
+                                "4": "4",
+                                "5": "5",
+                                "8": "8"
+                            },
+                            "q4": {
+                                "e": "e",
+                                "q": "q",
+                                "w": "w"
+                            },
+                            "q5": {
+                                "a": "a",
+                                "d": "d",
+                                "f": "f",
+                                "s": "s"
+                            },
+                            "q6": {
+                                "b": "b",
+                                "l": "l",
+                                "m": "m",
+                                "n": "n"
+                            },
+                            "q7": {
+                                "i": "i",
+                                "o": "o",
+                                "p": "p",
+                                "u": "u"
+                            },
+                            "q8": {
+                                "*": "*",
+                                "+": "+",
+                                "-": "-",
+                                "=": "="
+                            },
+                            "q9": {
+                                ",": ",",
+                                "-": "-",
+                                ".": ".",
+                                ";": ";"
+                            }
+                        }
+                    }
+                ],
+                "entry_code": {
+                    "d": "EA9Hzi_IWzunvpGpYnZZoHZ4juEVtyYAoBP1ObqJ3veA",
+                    "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                    "type": "spec/overlays/entry_code/1.1",
+                    "attribute_entry_codes": {
+                        "q1": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ],
+                        "q10": [
+                            "&",
+                            "&&",
+                            "|",
+                            "||"
+                        ],
+                        "q2": [
+                            "7",
+                            "8",
+                            "9"
+                        ],
+                        "q3": [
+                            "0",
+                            "3",
+                            "4",
+                            "5",
+                            "8"
+                        ],
+                        "q4": [
+                            "e",
+                            "q",
+                            "w"
+                        ],
+                        "q5": [
+                            "a",
+                            "d",
+                            "f",
+                            "s"
+                        ],
+                        "q6": [
+                            "b",
+                            "l",
+                            "m",
+                            "n"
+                        ],
+                        "q7": [
+                            "i",
+                            "o",
+                            "p",
+                            "u"
+                        ],
+                        "q8": [
+                            "*",
+                            "+",
+                            "-",
+                            "="
+                        ],
+                        "q9": [
+                            ",",
+                            "-",
+                            ".",
+                            ";"
+                        ]
+                    }
+                },
+                "format": {
+                    "d": "EFVrHS1r6b4OZZLbLwPFjQtz34Lyua2zZrJMecEBUNff",
+                    "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                    "type": "spec/overlays/format/1.1",
+                    "attribute_formats": {
+                        "q1": "application/pdf",
+                        "q10": "^(\\d{4})$",
+                        "q3": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+                        "q4": "^-?[0-9]+$",
+                        "q5": "[a-zA-Z0-9_\\.\\+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-\\.]+",
+                        "q6": "^[-+]?\\d*\\.?\\d+$",
+                        "q7": "^-?[0-9]+$",
+                        "q8": "^[A-Z][0-9][A-Z]\\s[0-9][A-Z][0-9]$",
+                        "q9": "\\+?\\(?\\d{2,4}\\)?[\\d\\s-]{3,}"
+                    }
+                },
+                "label": [
+                    {
+                        "d": "EDvG-u0rlW8DK9LW020NdEpk0uCQ7z44YYGXtV9AIu_V",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "spec/overlays/label/1.1",
+                        "language": "eng",
+                        "attribute_categories": [],
+                        "attribute_labels": {
+                            "q1": "q1",
+                            "q10": "q10",
+                            "q2": "q2",
+                            "q3": "q3",
+                            "q4": "q4",
+                            "q5": "q5",
+                            "q6": "q6",
+                            "q7": "q7",
+                            "q8": "q8",
+                            "q9": "q9"
+                        },
+                        "category_labels": {}
+                    },
+                    {
+                        "d": "ELbpBxqLp7g1Ln74lqcoYMV8at5qXFL5mbhDhwuFavVw",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "spec/overlays/label/1.1",
+                        "language": "fra",
+                        "attribute_categories": [],
+                        "attribute_labels": {
+                            "q1": "q1",
+                            "q10": "q10",
+                            "q2": "q2",
+                            "q3": "q3",
+                            "q4": "q4",
+                            "q5": "q5",
+                            "q6": "q6",
+                            "q7": "q7",
+                            "q8": "q8",
+                            "q9": "q9"
+                        },
+                        "category_labels": {}
+                    }
+                ],
+                "meta": [
+                    {
+                        "d": "EA-R4bAetYYbkoa378q42UfmNZ2d9_eeCA8azmPWAaY6",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "spec/overlays/meta/1.1",
+                        "language": "fra",
+                        "description": "Unknown",
+                        "name": "Unknown"
+                    },
+                    {
+                        "d": "EHhMK_pTWO8_EpankiqS6SK6120ytcz02mBCJlGeCVg2",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "spec/overlays/meta/1.1",
+                        "language": "eng",
+                        "description": "Unknown",
+                        "name": "Unknown"
+                    }
+                ]
+            }
+        },
+        "dependencies": []
+    },
+    "extensions": {
+        "adc": {
+            "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR": {
+                "d": "EMM6i9vMOcLGasky3jB_-VFxg-EL30u1M59QLAGGqS9b",
+                "type": "community/adc/extension/1.0",
+                "overlays": {
+                    "form": [
+                        {
+                            "d": "EO1A5Kxe0Vbd1sF6W9FiFJMDZz87A8xAsfuasSO7iyyG",
+                            "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                            "type": "community/overlays/adc/form/1.1",
+                            "language": "eng",
+                            "pages": [
+                                {
+                                    "attribute_order": [
+                                        {
+                                            "attribute_order": [
+                                                "q1",
+                                                "q2",
+                                                "q3",
+                                                "q4",
+                                                "q5",
+                                                "q6",
+                                                "q7",
+                                                "q8",
+                                                "q9",
+                                                "q10"
+                                            ],
+                                            "named_section": "8be43c57-7b2f-4e6a-aa2d-9579a69c4938"
+                                        }
+                                    ],
+                                    "named_section": "6e3c422f-f3cf-44d0-9202-be7319d99c29"
+                                }
+                            ],
+                            "page_order": [
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29"
+                            ],
+                            "page_labels": {
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29": "Page 1",
+                                "8be43c57-7b2f-4e6a-aa2d-9579a69c4938": "Section 1"
+                            },
+                            "sidebar_label": {
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29": "Page 1"
+                            },
+                            "description": {
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29": "Page 1",
+                                "8be43c57-7b2f-4e6a-aa2d-9579a69c4938": "Section 1"
+                            },
+                            "title": "",
+                            "interaction": [
+                                {
+                                    "arguments": {
+                                        "q1": {
+                                            "type": "Binary"
+                                        },
+                                        "q10": {
+                                            "input_type": "radio-multi",
+                                            "placeholder": "YYYY",
+                                            "type": "DateTime"
+                                        },
+                                        "q2": {
+                                            "input_type": "checkbox-single",
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Boolean"
+                                        },
+                                        "q3": {
+                                            "input_type": "dropdown-single",
+                                            "placeholder": "YYYY-MM-DD",
+                                            "type": "DateTime"
+                                        },
+                                        "q4": {
+                                            "input_type": "datalist-single",
+                                            "placeholder": "Enter any integer",
+                                            "type": "Numeric"
+                                        },
+                                        "q5": {
+                                            "input_type": "toggle-single",
+                                            "type": "Text"
+                                        },
+                                        "q6": {
+                                            "input_type": "slider",
+                                            "placeholder": "Enter any integer or decimal number",
+                                            "type": "Numeric"
+                                        },
+                                        "q7": {
+                                            "input_type": "datalist-multi",
+                                            "placeholder": "Enter any integer",
+                                            "type": "Numeric"
+                                        },
+                                        "q8": {
+                                            "input_type": "toggle-multi",
+                                            "type": "Text"
+                                        },
+                                        "q9": {
+                                            "input_type": "dropdown-multi",
+                                            "type": "Text"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "d": "EG6y9EzawzkHn430quVsrIhH0vv9_2WSTeVB5sxWaBLo",
+                            "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                            "type": "community/overlays/adc/form/1.1",
+                            "language": "fra",
+                            "pages": [
+                                {
+                                    "attribute_order": [
+                                        {
+                                            "attribute_order": [
+                                                "q1",
+                                                "q2",
+                                                "q3",
+                                                "q4",
+                                                "q5",
+                                                "q6",
+                                                "q7",
+                                                "q8",
+                                                "q9",
+                                                "q10"
+                                            ],
+                                            "named_section": "8be43c57-7b2f-4e6a-aa2d-9579a69c4938"
+                                        }
+                                    ],
+                                    "named_section": "6e3c422f-f3cf-44d0-9202-be7319d99c29"
+                                }
+                            ],
+                            "page_order": [
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29"
+                            ],
+                            "page_labels": {
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29": "Page 1",
+                                "8be43c57-7b2f-4e6a-aa2d-9579a69c4938": "Section 1"
+                            },
+                            "sidebar_label": {
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29": "Page 1"
+                            },
+                            "description": {
+                                "6e3c422f-f3cf-44d0-9202-be7319d99c29": "Page 1",
+                                "8be43c57-7b2f-4e6a-aa2d-9579a69c4938": "Section 1"
+                            },
+                            "title": "",
+                            "interaction": [
+                                {
+                                    "arguments": {
+                                        "q1": {
+                                            "type": "Binary"
+                                        },
+                                        "q10": {
+                                            "input_type": "radio-multi",
+                                            "placeholder": "YYYY",
+                                            "type": "DateTime"
+                                        },
+                                        "q2": {
+                                            "input_type": "checkbox-single",
+                                            "options": [
+                                                "True",
+                                                "False"
+                                            ],
+                                            "type": "Boolean"
+                                        },
+                                        "q3": {
+                                            "input_type": "dropdown-single",
+                                            "placeholder": "YYYY-MM-DD",
+                                            "type": "DateTime"
+                                        },
+                                        "q4": {
+                                            "input_type": "datalist-single",
+                                            "placeholder": "Enter any integer",
+                                            "type": "Numeric"
+                                        },
+                                        "q5": {
+                                            "input_type": "toggle-single",
+                                            "type": "Text"
+                                        },
+                                        "q6": {
+                                            "input_type": "slider",
+                                            "placeholder": "Enter any integer or decimal number",
+                                            "type": "Numeric"
+                                        },
+                                        "q7": {
+                                            "input_type": "datalist-multi",
+                                            "placeholder": "Enter any integer",
+                                            "type": "Numeric"
+                                        },
+                                        "q8": {
+                                            "input_type": "toggle-multi",
+                                            "type": "Text"
+                                        },
+                                        "q9": {
+                                            "input_type": "dropdown-multi",
+                                            "type": "Text"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "ordering": {
+                        "d": "EOdnFGVEWe7x5oVeN1UN9sSepisCB_7PYkmgB2ZPr9SU",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "community/overlays/adc/ordering/1.1",
+                        "attribute_ordering": [
+                            "q1",
+                            "q2",
+                            "q3",
+                            "q4",
+                            "q5",
+                            "q6",
+                            "q7",
+                            "q8",
+                            "q9",
+                            "q10"
+                        ],
+                        "entry_code_ordering": {
+                            "q1": [
+                                "1",
+                                "2",
+                                "3",
+                                "4"
+                            ],
+                            "q2": [
+                                "9",
+                                "8",
+                                "7"
+                            ],
+                            "q3": [
+                                "5",
+                                "4",
+                                "3",
+                                "8",
+                                "0"
+                            ],
+                            "q4": [
+                                "q",
+                                "w",
+                                "e"
+                            ],
+                            "q5": [
+                                "a",
+                                "s",
+                                "d",
+                                "f"
+                            ],
+                            "q6": [
+                                "b",
+                                "n",
+                                "m",
+                                "l"
+                            ],
+                            "q7": [
+                                "p",
+                                "o",
+                                "i",
+                                "u"
+                            ],
+                            "q8": [
+                                "-",
+                                "=",
+                                "+",
+                                "*"
+                            ],
+                            "q9": [
+                                ",",
+                                ".",
+                                ";",
+                                "-"
+                            ],
+                            "q10": [
+                                "|",
+                                "&",
+                                "||",
+                                "&&"
+                            ]
+                        }
+                    },
+                    "range": {
+                        "d": "ECDR9fqrAgnS0ApJ2kQ2NJ2GN-heUsaAW_DIX48TEpl1",
+                        "capture_base": "EALu1QshqBTbNIhuwvgZgNYFwPSPMBHaQD2qD0DVKMLR",
+                        "type": "community/overlays/adc/range/1.1",
+                        "attributes": {
+                            "q10": {
+                                "lower": "2000",
+                                "lower_inclusive": true,
+                                "upper": "2025",
+                                "upper_inclusive": true
+                            },
+                            "q4": {
+                                "lower": "90",
+                                "lower_inclusive": false,
+                                "upper": "120",
+                                "upper_inclusive": false
+                            },
+                            "q7": {
+                                "lower": "1",
+                                "lower_inclusive": true,
+                                "upper": "100",
+                                "upper_inclusive": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
