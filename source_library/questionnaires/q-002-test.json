@@ -280,12 +280,12 @@
         "overlays": {
           "form": [
             {
-              "d": "###presentationDigest###",
-              "type": "###presentationType###",
-              "language": ["eng", "fra"],
+              "d": "ENadjQaUKwk-k5TfKht5bXD4_RJ87fPAJwwBdtm_l6xY",
+              "capture_base": "EJNfvCh1PK8qqUa52RcZ73uwxJRQZrFo2LGmwhxDRrC3",
+              "type": "community/overlays/adc/form/1.0",
+              "language": "eng",
               "pages": [
                 {
-                  "named_section": "page-1",
                   "attribute_order": [
                     {
                       "named_section": "section-1",
@@ -310,180 +310,238 @@
                         "q16"
                       ]
                     }
-                  ]
+                  ],
+                  "named_section": "page-1"
                 }
               ],
-              "page_order": ["page-1"],
+              "page_order": [
+                "page-1"
+              ],
               "page_labels": {
-                "eng": {
-                  "page-1": "Page 1: Prototype OCA DRT questionnaire #2",
-                  "section-1": "Section 1: Data Requestor Information",
-                  "section-2": "Section 2: Data Steward information",
-                  "section-3": "Section 3: Data Collaborators",
-                  "section-4": "Section 4: Description of your research"
-                },
-                "fra": {
-                  "page-1": "Page 1: Schéma de demande de données",
-                  "section-1": "Section 1: Informations sur le demandeur de données",
-                  "section-2": "Section 2: Informations sur le responsable des données",
-                  "section-3": "Section 3: Collaborateurs de données",
-                  "section-4": "Section 4: Description de votre recherche"
-                }
+                "page-1": "Page 1: Prototype OCA DRT questionnaire #2",
+                "section-1": "Section 1: Data Requestor Information",
+                "section-2": "Section 2: Data Steward information",
+                "section-3": "Section 3: Data Collaborators",
+                "section-4": "Section 4: Description of your research"
               },
               "sidebar_label": {
-                "eng": {
-                  "page-1": "first page: parent page"
-                },
-                "fra": {
-                  "page-1": "première page : page parent"
-                }
+                "page-1": "first page: parent page"
               },
-                              "subheading": {
-                  "eng": {
-                    "page-1": "welcome to the Prototype OCA DRT #2 data request schema",
-                    "section-1": "Enter information about the person who is requesting the data",
-                    "section-2": "Enter data about the data steward. This is the person who will have the legal role of signing any data sharing agreement and will take responsibility for any mismanagement of the data and breach of the data sharing agreement.",
-                    "section-3": "List all the data collaborators who will have access to the data as they will also need to be named to be included in the data sharing agreement.",
-                    "section-4": "Please provide information about what you will do with the data you have requested."
-                  },
-                  "fra": {
-                    "page-1": "Bienvenue dans le schéma de demande de données Prototype OCA DRT #2",
-                    "section-1": "Entrez les renseignements sur la personne qui demande les données",
-                    "section-2": "Entrez les données sur le responsable des données. C'est la personne qui aura le rôle légal de signer tout accord de partage de données et qui sera responsable de toute mauvaise gestion des données et de toute violation de l'accord de partage de données.",
-                    "section-3": "Listez tous les collaborateurs de données qui auront accès aux données, car ils devront également être nommés pour être inclus dans l'accord de partage de données.",
-                    "section-4": "Veuillez fournir des informations sur ce que vous ferez avec les données que vous avez demandées."
-                  }
-                },
+              "description": {
+                "page-1": "welcome to the Prototype OCA DRT #2 data request schema",
+                "section-1": "Enter information about the person who is requesting the data",
+                "section-2": "Enter data about the data steward. This is the person who will have the legal role of signing any data sharing agreement and will take responsibility for any mismanagement of the data and breach of the data sharing agreement.",
+                "section-3": "List all the data collaborators who will have access to the data as they will also need to be named to be included in the data sharing agreement.",
+                "section-4": "Please provide information about what you will do with the data you have requested."
+              },
+              "title": "Prototype DRT #2_ test version",
               "interaction": [
                 {
                   "arguments": {
                     "q1": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q10": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q10.5": {
-                      "type": "reference",
-                      "reference_button_text": {
-                        "eng": "Add Collaborator",
-                        "fra": "Ajouter un Collaborateur"
-                      },
-                      "showing_attribute": ["q1", "q2"]
+                      "reference_button_text": "Add Collaborator",
+                      "showing_attribute": ["q1", "q2"],
+                      "type": "reference"
                     },
                     "q11": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q13": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q17": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q14": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q15": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q16": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q2": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q3": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q4": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q5": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q6": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q7": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q8": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q9": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "eng": "Enter ...",
-                        "fra": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     }
                   }
                 }
+              ]
+            },
+            {
+              "d": "EEajzHWdqhALBJb7tOp9vLKn65DsZjbGiBMwQ-VRc-m8",
+              "capture_base": "EJNfvCh1PK8qqUa52RcZ73uwxJRQZrFo2LGmwhxDRrC3",
+              "type": "community/overlays/adc/form/1.0",
+              "language": "fra",
+              "pages": [
+                {
+                  "attribute_order": [
+                    {
+                      "named_section": "section-1",
+                      "attribute_order": ["q1", "q2", "q3", "q4", "q5"]
+                    },
+                    {
+                      "named_section": "section-2",
+                      "attribute_order": ["q6", "q7", "q8", "q9", "q10"]
+                    },
+                    {
+                      "named_section": "section-3",
+                      "attribute_order": ["q10.5"]
+                    },
+                    {
+                      "named_section": "section-4",
+                      "attribute_order": [
+                        "q11",
+                        "q13",
+                        "q17",
+                        "q14",
+                        "q15",
+                        "q16"
+                      ]
+                    }
+                  ],
+                  "named_section": "page-1"
+                }
               ],
-              "title": {
-                "eng": "Prototype DRT #2_ test version",
-                "fra": "Prototype DRT #2_ version de test"
-              }
+              "page_order": [
+                "page-1"
+              ],
+              "page_labels": {
+                "page-1": "Page 1: Schéma de demande de données",
+                "section-1": "Section 1: Informations sur le demandeur de données",
+                "section-2": "Section 2: Informations sur le responsable des données",
+                "section-3": "Section 3: Collaborateurs de données",
+                "section-4": "Section 4: Description de votre recherche"
+              },
+              "sidebar_label": {
+                "page-1": "première page : page parent"
+              },
+              "description": {
+                "page-1": "Bienvenue dans le schéma de demande de données Prototype OCA DRT #2",
+                "section-1": "Entrez les renseignements sur la personne qui demande les données",
+                "section-2": "Entrez les données sur le responsable des données. C'est la personne qui aura le rôle légal de signer tout accord de partage de données et qui sera responsable de toute mauvaise gestion des données et de toute violation de l'accord de partage de données.",
+                "section-3": "Listez tous les collaborateurs de données qui auront accès aux données, car ils devront également être nommés pour être inclus dans l'accord de partage de données.",
+                "section-4": "Veuillez fournir des informations sur ce que vous ferez avec les données que vous avez demandées."
+              },
+              "title": "Prototype DRT #2_ version de test",
+              "interaction": [
+                {
+                  "arguments": {
+                    "q1": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q10": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q10.5": {
+                      "reference_button_text": "Ajouter un Collaborateur",
+                      "showing_attribute": ["q1", "q2"],
+                      "type": "reference"
+                    },
+                    "q11": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q13": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q17": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q14": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q15": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q16": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q2": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q3": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q4": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q5": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q6": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q7": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q8": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q9": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -494,79 +552,108 @@
         "overlays": {
           "form": [
             {
-              "d": "###presentationDigest###",
-              "type": "###presentationType###",
-              "language": ["fra", "eng"],
+              "d": "ENadjQaUKwk-k5TfKht5bXD4_RJ87fPAJwwBdtm_l6xY",
+              "capture_base": "ENvnAeARrwf17hM66r0NSX9IqwCbj_M9ZS13pq_aa0al",
+              "type": "community/overlays/adc/form/1.0",
+              "language": "eng",
               "pages": [
                 {
-                  "named_section": "page-1",
                   "attribute_order": [
                     {
                       "named_section": "section-1",
                       "attribute_order": ["q1", "q2", "q3", "q4"]
                     }
-                  ]
+                  ],
+                  "named_section": "page-1"
                 }
               ],
-              "page_order": ["page-1"],
+              "page_order": [
+                "page-1"
+              ],
               "page_labels": {
-                "fra": {
-                  "page-1": "Page 1: Informations sur le collaborateur",
-                  "section-1": "Section 1: Informations sur le collaborateur"
-                },
-                "eng": {
-                  "page-1": "Page 1: Collaborator Information",
-                  "section-1": "Section 1: Collaborator Information"
-                }
+                "page-1": "Page 1: Collaborator Information",
+                "section-1": "Section 1: Collaborator Information"
               },
               "sidebar_label": {
-                "fra": {
-                  "page-1": "Informations sur le collaborateur"
-                },
-                "eng": {
-                  "page-1": "Collaborator Information"
-                }
+                "page-1": "Collaborator Information"
               },
-              "subheading": {
-                "fra": {
-                  "page-1": "Informations sur le collaborateur",
-                  "section-1": "Informations sur le collaborateur"
-                },
-                "eng": {
-                  "page-1": "Collaborator Information",
-                  "section-1": "Collaborator Information"
-                }
+              "description": {
+                "page-1": "Collaborator Information",
+                "section-1": "Collaborator Information"
               },
+              "title": "Collaborator Information",
               "interaction": [
                 {
                   "arguments": {
                     "q1": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "fra": "Enter ...",
-                        "eng": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q2": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "fra": "Enter ...",
-                        "eng": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q3": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "fra": "Enter ...",
-                        "eng": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     },
                     "q4": {
-                      "type": "textarea",
-                      "placeholder": {
-                        "fra": "Enter ...",
-                        "eng": "Enter ..."
-                      }
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "d": "EEajzHWdqhALBJb7tOp9vLKn65DsZjbGiBMwQ-VRc-m8",
+              "capture_base": "ENvnAeARrwf17hM66r0NSX9IqwCbj_M9ZS13pq_aa0al",
+              "type": "community/overlays/adc/form/1.0",
+              "language": "fra",
+              "pages": [
+                {
+                  "attribute_order": [
+                    {
+                      "named_section": "section-1",
+                      "attribute_order": ["q1", "q2", "q3", "q4"]
+                    }
+                  ],
+                  "named_section": "page-1"
+                }
+              ],
+              "page_order": [
+                "page-1"
+              ],
+              "page_labels": {
+                "page-1": "Page 1: Informations sur le collaborateur",
+                "section-1": "Section 1: Informations sur le collaborateur"
+              },
+              "sidebar_label": {
+                "page-1": "Informations sur le collaborateur"
+              },
+              "description": {
+                "page-1": "Informations sur le collaborateur",
+                "section-1": "Informations sur le collaborateur"
+              },
+              "title": "Informations sur le collaborateur",
+              "interaction": [
+                {
+                  "arguments": {
+                    "q1": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q2": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q3": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
+                    },
+                    "q4": {
+                      "placeholder": "Enter ...",
+                      "type": "textarea"
                     }
                   }
                 }
