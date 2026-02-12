@@ -1,13 +1,12 @@
-link,questionnaire_id,license_id,owner_id,expiry,data_label,tags,record_label
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/24194c0f-6327-435d-9d6a-f652942dd592,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2024harvest, farmA",prototype1-24-A
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/a3253ea3-c620-4493-8866-49ba81a60840,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2025harvest, farmA",prototype1-25-A
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/68cf3788-6dd0-4b98-9620-b43711db6fc0,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2024harvest, farmB",prototype1-24-B
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/77170151-053b-4461-9849-e4c18968f654,questionnaire1_ID,TODO-license_ID,71ga39pq,2025-07-30,prototype1,"2024harvest, farmB",prototype1-24-B
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/e540b3a9-b26e-435f-aff4-19bfa23a21cb,q-001-test,l-001-test,92md42wd,2026-08-30,prototype1,"2023, farmA, cow",prototype1-23-A-cow
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/8ce1026c-e41c-4a03-a0a1-ede1a1630e5e,q-001-test,l-001-test,92md42wd,2026-08-18,prototype1,"2023, farmB, pig",prototype1-23-B-pig
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/14ca6112-935e-4c9c-91ea-f6f92bfffe33,q-002-test,l-002-test,92md42wd,2026-08-30,prototype2,"2023, farmA, cow",prototype2-23-A-cow
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/3ef65781-f2ed-4a4e-a7bb-d85d21e79ae4,q-002-test,l-002-test,92md42wd,2026-08-18,prototype2,"2023, farmB, pig",prototype2-23-B-pig
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/fd603604-8934-4282-892b-87a1fe1f8dc8,q-003-test,l-002-test,92md42wd,2026-08-18,prototype3,"2023, farmB, pig",prototype3-23-B-pig
-http://drt-test.canadacentral.cloudapp.azure.com/negotiation/generate/36681bc2-0654-4a06-8a38-8d829298d8ee,q-004-test,l-002-test,92md42wd,2026-08-18,prototype4,"2023, farmB, pig",prototype4-23-B-pig
-
+base_url,link_uuid,visible_label,questionnaire_id,license_id,owner_id,expiry,data_label,tags,record_label
+http://drt-test.canadacentral.cloudapp.azure.com,24194c0f-6327-435d-9d6a-f652942dd592,"Prototype1 2024 harvest farm A",questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2024harvest, farmA",prototype1-24-A
+http://drt-test.canadacentral.cloudapp.azure.com,a3253ea3-c620-4493-8866-49ba81a60840,"Prototype1 2025 harvest farm A",questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2025harvest, farmA",prototype1-25-A
+http://drt-test.canadacentral.cloudapp.azure.com,68cf3788-6dd0-4b98-9620-b43711db6fc0,"Prototype1 2024 harvest farm B",questionnaire1_ID,TODO-license_ID,71ga39pq,2025-06-30,prototype1,"2024harvest, farmB",prototype1-24-B
+http://drt-test.canadacentral.cloudapp.azure.com,77170151-053b-4461-9849-e4c18968f654,"Prototype1 2024 harvest farm B (alt expiry)",questionnaire1_ID,TODO-license_ID,71ga39pq,2025-07-30,prototype1,"2024harvest, farmB",prototype1-24-B
+http://drt-test.canadacentral.cloudapp.azure.com,e540b3a9-b26e-435f-aff4-19bfa23a21cb,"Prototype1 2023 Farm A Cow Data",q-001-test,l-001-test,92md42wd,2026-08-30,prototype1,"2023, farmA, cow",prototype1-23-A-cow
+http://drt-test.canadacentral.cloudapp.azure.com,8ce1026c-e41c-4a03-a0a1-ede1a1630e5e,"Prototype1 2023 Farm B Pig Data",q-001-test,l-001-test,92md42wd,2026-08-18,prototype1,"2023, farmB, pig",prototype1-23-B-pig
+http://drt-test.canadacentral.cloudapp.azure.com,14ca6112-935e-4c9c-91ea-f6f92bfffe33,"Prototype2 2023 Farm A Cow Data",q-002-test,l-002-test,92md42wd,2026-08-30,prototype2,"2023, farmA, cow",prototype2-23-A-cow
+http://drt-test.canadacentral.cloudapp.azure.com,3ef65781-f2ed-4a4e-a7bb-d85d21e79ae4,"Prototype2 2023 Farm B Pig Data",q-002-test,l-002-test,92md42wd,2026-08-18,prototype2,"2023, farmB, pig",prototype2-23-B-pig
+http://drt-test.canadacentral.cloudapp.azure.com,fd603604-8934-4282-892b-87a1fe1f8dc8,"Prototype3 2023 Farm B Pig Data",q-003-test,l-002-test,92md42wd,2026-08-18,prototype3,"2023, farmB, pig",prototype3-23-B-pig
+http://drt-test.canadacentral.cloudapp.azure.com,36681bc2-0654-4a06-8a38-8d829298d8ee,"Prototype4 2023 Farm B Pig Data",q-004-test,l-002-test,92md42wd,2026-08-18,prototype4,"2023, farmB, pig",prototype4-23-B-pig
 
