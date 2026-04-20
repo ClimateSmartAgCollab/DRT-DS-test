@@ -783,7 +783,15 @@
                       "type": "Text"
                     },
                     "contributor": {
-                      "type": "Placeholder Child Schema"
+                      "type": "reference",
+                      "reference_button_text": {
+                        "eng": "Add contributor"
+                      },
+                      "showing_attribute": [
+                        "Name",
+                        "Email",
+                        "Roles"
+                      ]
                     },
                     "data_access_collaborators": {
                       "type": "Text"
@@ -832,7 +840,14 @@
                       "type": "Text"
                     },
                     "plan_collaborators": {
-                      "type": "Placeholder Child Schema"
+                      "type": "reference",
+                      "reference_button_text": {
+                        "eng": "Add collaborator"
+                      },
+                      "showing_attribute": [
+                        "email",
+                        "Permissions"
+                      ]
                     },
                     "plan_visibility": {
                       "type": "Text"
@@ -859,7 +874,14 @@
                       "type": "Text"
                     },
                     "research_outputs": {
-                      "type": "Placeholder Child Schema"
+                      "type": "reference",
+                      "reference_button_text": {
+                        "eng": "Add research output"
+                      },
+                      "showing_attribute": [
+                        "Title",
+                        "Type"
+                      ]
                     },
                     "resources_for_dmp": {
                       "type": "Text"
@@ -1188,10 +1210,22 @@
                       "type": "Text"
                     },
                     "Intended_repositories": {
-                      "type": "Child Schema"
+                      "type": "reference",
+                      "reference_button_text": {
+                        "eng": "Add repository"
+                      },
+                      "showing_attribute": [
+                        "Intended_repository"
+                      ]
                     },
                     "Metadata_standards": {
-                      "type": "Child Schema"
+                      "type": "reference",
+                      "reference_button_text": {
+                        "eng": "Add metadata standard"
+                      },
+                      "showing_attribute": [
+                        "Metadata_standard"
+                      ]
                     },
                     "Output_if_other": {
                       "type": "Text"
