@@ -1,0 +1,336 @@
+{
+  "d": "ELnZzkrlS0DHSfpvqktohJwIEk1CMCfrVqu9qOqCcDMs",
+  "type": "oca_package/1.0",
+  "oca_bundle": {
+    "bundle": {
+      "v": "OCAS11JSON000925_",
+      "d": "EIUAU6aZjnnhvyKcHKcRl3kc6XQGw8Mqs_Jifnw_SfYF",
+      "capture_base": {
+        "d": "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo",
+        "type": "spec/capture_base/1.1",
+        "attributes": {
+          "collaborators": "refs:EBeWpKDGMWxDPUVWbhb7DLM_7aDawMUnGN2ruxc8Ap2o",
+          "data_security": "Text",
+          "dr.affiliation": "Text",
+          "dr.email": "Text",
+          "dr.location": "Text",
+          "dr.name": "Text",
+          "pub_date": "DateTime",
+          "research_outputs": "Text",
+          "research_question": "Text",
+          "timespan": "Text"
+        },
+        "classification": "",
+        "flagged_attributes": []
+      },
+      "overlays": {
+        "format": {
+          "d": "EMuNPSBYh8tqN5yYFnCZOx50WNzmpDRJgIx69Kncll0t",
+          "capture_base": "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo",
+          "type": "spec/overlays/format/1.1",
+          "attribute_formats": {
+            "data_security": "^.{0,800}$",
+            "dr.affiliation": "^.{0,250}$",
+            "dr.email": "[a-zA-Z0-9_\\.\\+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-\\.]+",
+            "dr.location": "^.{0,250}$",
+            "dr.name": "^.{0,250}$",
+            "pub_date": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+            "research_outputs": "^.{0,800}$",
+            "research_question": "^.{0,800}$",
+            "timespan": "^.{0,800}$"
+          }
+        },
+        "label": [
+          {
+            "d": "EPO3CpGLJ-QfrIpVmh0mErmFKT-oQxzFnN_aRwWNlZ1w",
+            "capture_base": "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo",
+            "type": "spec/overlays/label/1.1",
+            "language": "eng",
+            "attribute_categories": [],
+            "attribute_labels": {
+              "collaborators": "Describe project collaborators",
+              "data_security": "What methods will you use to secure the data and ensure access only to those collaborators and roles you have described herein?",
+              "dr.affiliation": "What is the institutional affiliation of the data requestor?",
+              "dr.email": "What is the data requestor’s email address?",
+              "dr.location": "What Country is the institution located in?",
+              "dr.name": "What is the full name of the data requestor?",
+              "pub_date": "What would be the earliest date you would need to publish any results?",
+              "research_outputs": "What outputs will you be generating from usage of this data? (e.g. publication, master’s thesis, anonymized summary statistics, etc.)",
+              "research_question": "What is your research question that you will address with the data you are requesting?",
+              "timespan": "Describe the timespan for your work?"
+            },
+            "category_labels": {}
+          }
+        ],
+        "meta": [
+          {
+            "d": "EBknZCUePetrtL53S4qxACiU56hzpKrjZ35zZ0QvwRzr",
+            "capture_base": "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo",
+            "type": "spec/overlays/meta/1.1",
+            "language": "eng",
+            "description": "A data request questionnaire with more details.",
+            "name": "Data request"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      {
+        "v": "OCAS11JSON000597_",
+        "d": "EBeWpKDGMWxDPUVWbhb7DLM_7aDawMUnGN2ruxc8Ap2o",
+        "capture_base": {
+          "d": "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW",
+          "type": "spec/capture_base/1.1",
+          "attributes": {
+            "col.affiliation": "Text",
+            "col.data_access": "Text",
+            "col.data_time": "Text",
+            "col.name": "Text"
+          },
+          "classification": "",
+          "flagged_attributes": []
+        },
+        "overlays": {
+          "format": {
+            "d": "EFYSffRD1258Z2w7NJH4okFupqkoxeqi3KEcXVCdH73g",
+            "capture_base": "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW",
+            "type": "spec/overlays/format/1.1",
+            "attribute_formats": {
+              "col.affiliation": "^.{0,250}$",
+              "col.data_access": "^.{0,800}$",
+              "col.data_time": "^.{0,800}$",
+              "col.name": "^.{0,250}$"
+            }
+          },
+          "label": [
+            {
+              "d": "EM1XYVD08Is7eq7W9nfe_dmnnfD0GuuwUzYKD7LopaiJ",
+              "capture_base": "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW",
+              "type": "spec/overlays/label/1.1",
+              "language": "eng",
+              "attribute_categories": [],
+              "attribute_labels": {
+                "col.affiliation": "What is the collaborator’s institutional affiliation?",
+                "col.data_access": "Describe if the collaborator will be working with the provided data or a subset (e.g. anonymized data).",
+                "col.data_time": "What will this collaborator do with the data?",
+                "col.name": "What is the collaborator’s name?"
+              },
+              "category_labels": {}
+            }
+          ],
+          "meta": [
+            {
+              "d": "EOH86PJprqwB-ph0V1dtszZrJxq-EjT7Z6iI5oOJf5uw",
+              "capture_base": "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW",
+              "type": "spec/overlays/meta/1.1",
+              "language": "eng",
+              "description": "Child schema for collaborators",
+              "name": "collaborators"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "extensions": {
+    "adc": {
+      "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo": {
+        "d": "ECZDjS5P0cWfgaoqAZj9PnaPSPQNHvaQGqyp9Rz1Jmqt",
+        "type": "community/adc/extension/1.0",
+        "overlays": {
+          "form": [
+            {
+              "d": "EG40sVGpXGE2eusfTei3-OL7R-N0D8jDdEMguFKF45Wq",
+              "capture_base": "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo",
+              "type": "community/overlays/adc/form/1.0",
+              "language": "eng",
+              "pages": [
+                {
+                  "attribute_order": [
+                    "dr.name",
+                    "dr.email",
+                    "dr.affiliation",
+                    "dr.location"
+                  ],
+                  "named_section": "7e7f551f-9e7a-4418-9131-55210c3190ff"
+                },
+                {
+                  "attribute_order": [
+                    "collaborators"
+                  ],
+                  "named_section": "c3f93a57-2936-4348-8bac-4a7010776e01"
+                },
+                {
+                  "attribute_order": [
+                    {
+                      "attribute_order": [
+                        "timespan",
+                        "pub_date"
+                      ],
+                      "named_section": "e5046f07-375a-4718-bc15-98ebc1bd0c87"
+                    },
+                    "research_question",
+                    "research_outputs",
+                    "data_security"
+                  ],
+                  "named_section": "b70064f8-781d-462b-a471-35983c2cbad5"
+                }
+              ],
+              "page_order": [
+                "7e7f551f-9e7a-4418-9131-55210c3190ff",
+                "c3f93a57-2936-4348-8bac-4a7010776e01",
+                "b70064f8-781d-462b-a471-35983c2cbad5"
+              ],
+              "page_labels": {
+                "7e7f551f-9e7a-4418-9131-55210c3190ff": "Data Requestor",
+                "c3f93a57-2936-4348-8bac-4a7010776e01": "Collaborators",
+                "b70064f8-781d-462b-a471-35983c2cbad5": "Research",
+                "e5046f07-375a-4718-bc15-98ebc1bd0c87": "Timespan"
+              },
+              "sidebar_label": {
+                "7e7f551f-9e7a-4418-9131-55210c3190ff": "Requestor",
+                "c3f93a57-2936-4348-8bac-4a7010776e01": "Collaborators",
+                "b70064f8-781d-462b-a471-35983c2cbad5": "Research"
+              },
+              "description": {
+                "7e7f551f-9e7a-4418-9131-55210c3190ff": "Information about the person requesting access to the data resource(s).",
+                "c3f93a57-2936-4348-8bac-4a7010776e01": "Describe collaborators who would also be using or have access to the requested data.",
+                "b70064f8-781d-462b-a471-35983c2cbad5": "Describe how the data will be used and stored to address the research question.",
+                "e5046f07-375a-4718-bc15-98ebc1bd0c87": "Timespan of the work"
+              },
+              "title": "Data request",
+              "interaction": [
+                {
+                  "arguments": {
+                    "collaborators": {
+                      "reference_button_text": "Add Collaborator",
+                      "showing_attribute": [
+                        "col.name",
+                        "col.affiliation"
+                      ],
+                      "type": "reference"
+                    },
+                    "data_security": {
+                      "type": "Text"
+                    },
+                    "dr.affiliation": {
+                      "type": "Text"
+                    },
+                    "dr.email": {
+                      "type": "Text"
+                    },
+                    "dr.location": {
+                      "type": "Text"
+                    },
+                    "dr.name": {
+                      "type": "Text"
+                    },
+                    "pub_date": {
+                      "placeholder": "YYYY-MM-DD",
+                      "type": "DateTime"
+                    },
+                    "research_outputs": {
+                      "type": "Text"
+                    },
+                    "research_question": {
+                      "type": "Text"
+                    },
+                    "timespan": {
+                      "type": "Text"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "ordering": {
+            "d": "EPiip-Omj9edhv-SrU9nC6Icrt0BGuNPKjE3dwh8KZxl",
+            "capture_base": "EJH0AEs2BrtT8RHzGEF2fMmHxe2Xx0YKcwlsX4OLI-bo",
+            "type": "community/overlays/adc/ordering/1.0",
+            "attribute_ordering": [
+              "dr.name",
+              "dr.email",
+              "dr.affiliation",
+              "dr.location",
+              "collaborators",
+              "research_question",
+              "research_outputs",
+              "data_security",
+              "timespan",
+              "pub_date"
+            ],
+            "entry_code_ordering": {}
+          }
+        }
+      },
+      "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW": {
+        "d": "EAfD2FheMaUMYB9iLcBG-qBXDUwdJP91_mO04aB8aHdV",
+        "type": "community/adc/extension/1.0",
+        "overlays": {
+          "form": [
+            {
+              "d": "ENN7BdEdvmtzoWc9lW4BZL4TFfs2wxOJq-hRX4ayO3XN",
+              "capture_base": "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW",
+              "type": "community/overlays/adc/form/1.0",
+              "language": "eng",
+              "pages": [
+                {
+                  "attribute_order": [
+                    "col.name",
+                    "col.affiliation",
+                    "col.data_access",
+                    "col.data_time"
+                  ],
+                  "named_section": "a2f6c943-80d4-421d-91a6-688345f90482"
+                }
+              ],
+              "page_order": [
+                "a2f6c943-80d4-421d-91a6-688345f90482"
+              ],
+              "page_labels": {
+                "a2f6c943-80d4-421d-91a6-688345f90482": "Collaborator"
+              },
+              "sidebar_label": {
+                "a2f6c943-80d4-421d-91a6-688345f90482": "Collaborator"
+              },
+              "description": {
+                "a2f6c943-80d4-421d-91a6-688345f90482": "Describe project collaborators"
+              },
+              "title": "collaborators",
+              "interaction": [
+                {
+                  "arguments": {
+                    "col.affiliation": {
+                      "type": "Text"
+                    },
+                    "col.data_access": {
+                      "type": "Text"
+                    },
+                    "col.data_time": {
+                      "type": "Text"
+                    },
+                    "col.name": {
+                      "type": "Text"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "ordering": {
+            "d": "EKJ0PmH2TWKphl-uwlmO3lFomWuT94LQsKF7ivOnBGeF",
+            "capture_base": "ECTze-MtZ5giDlZVMfNTg8VvpyV5-Vdmx3gQLj0SvVZW",
+            "type": "community/overlays/adc/ordering/1.0",
+            "attribute_ordering": [
+              "col.name",
+              "col.affiliation",
+              "col.data_access",
+              "col.data_time"
+            ],
+            "entry_code_ordering": {}
+          }
+        }
+      }
+    }
+  }
+}
