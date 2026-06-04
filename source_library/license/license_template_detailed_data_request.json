@@ -1,1 +1,6 @@
-{"d":"ENs6NNREHqcD0s7mw7YzEs1v4tQrQlN76oBjo5DtL7eX","jinja":"Requestor\nData access has been requested by:\n\n{{ dr.name }}, {{ dr.email }}\n{{ dr.affiliation }}\n{{ dr.location }}\n\nUsage\nResearch question:\n{{ research_question }}\n\nResearch outputs:\n{{ research_outputs }}\n\nMethods used to secure the data and ensure access only to collaborators described herein:\n\n{{ data_security }}\n\nTimespan of the work:\n\n{{ timespan }}\n\nEarliest publication date:\n\n{{ pub_date }}\n\nCollaborators\n{% for c in collaborators %}\n{{ c.name }}\n{{ c.affiliation }}\nType of data access: {{ c.data_access }}\nTimeframe for usage: {{ c.data_time }}\n{% endfor %}\n","oca_package_d":null,"type":"license_template/1.0"}
+{
+    "d": "EEgsGuKJGEFvtXYJyC21QLi4PEdWfDIL5WielJxOQZc7",
+    "jinja": "Requestor\nData access has been requested by:\n\n{{ dr.name }}, {{ dr.email }}\n{{ dr.affiliation }}\n{{ dr.location }}\n\nUsage\nResearch question:\n{{ research_question }}\n\nResearch outputs:\n{{ research_outputs }}\n\nMethods used to secure the data and ensure access only to collaborators described herein:\n\n{{ data_security }}\n\nTimespan of the work:\n\n{{ timespan }}\n\nEarliest publication date:\n\n{{ pub_date }}\n\nCollaborators\n{% for item in collaborators %}\n{{ item.col.name }}\n{{ item.col.affiliation }}\nType of data access: {{ item.col.data_access }}\nTimeframe for usage: {{ item.col.data_time }}\n{% endfor %}",
+    "oca_package_d": "ELnZzkrlS0DHSfpvqktohJwIEk1CMCfrVqu9qOqCcDMs",
+    "type": "license_template/1.0"
+}
