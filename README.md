@@ -12,6 +12,7 @@ To create a link and connect it to a questionnaire to share with potential data 
 
 * link - random link that can be shared with data requestors that starts them answering the right questionnaire.
 * questionnaire_id - which questionnaire the data requestor will answer.
+* license_id - which license template the data owner will recieve.
 * owner_id - which owner the answers to the questionnaire will be given.
 * expiry - rather than deleting a link, the link is expired here. Enter the date the link is no longer valid from.
 * data_label - for summary statistics, the data owner can create a comma separated list of tags for their own use.
